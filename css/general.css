@@ -155,6 +155,9 @@ button a {
   color: white;
   position: fixed;
   bottom: 10px;
+}
+
+#scroll-down:hover {
   cursor: pointer;
 }
 
