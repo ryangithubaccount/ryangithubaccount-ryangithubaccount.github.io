@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ryan Chan!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="../css/general.css" rel="stylesheet" />
+    <link href="../css/intro.css" rel="stylesheet" />
+    <link href="../css/content.css" rel="stylesheet" />
+    <link href="../css/experience.css" rel="stylesheet" />
+    <script defer src="../js/script.js"></script>
+  </head>
+  <body class="flex-container column">
+    <!-- The top navigation bar. -->
+    <header class="flex-container">
+      <img src = "../images/logo.png" id = "logo-img">
+      <nav>
+        <ul>
+          <li class="scroll">Home</li>
+          <li class="scroll">About</li>
+          <li class="scroll">Experiences</li>
+          <li class="scroll">Projects</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main source of content. Display of various pages. -->
+    <!-- INTRO PAGE -->
+    <main class = "flex-container column">
+      <section id="home" class="flex-container">
+        <section id="title-txt" class="flex-container column ">
+          <h2>Hi, I'm</h2>
+          <h1>Ryan Chan</h1>
+          <p class="title-p">
+            I'm a Caltech computer science student 
+            exploring the world of software!
+          </p>
+          <p class="title-p">Let's get in touch!</p>
+          <section class="flex-container button-holder">
+            <button class="flex-container"><img src="../images/document.png">Resume</button>
+            <a href="https://github.com/ryangithubaccount" target="_blank">
+              <button class="flex-container"><img src="../images/github.png">GitHub</button>
+            </a>
+            <a href="https://linkedin.com/in/ry-chan" target="_blank">
+              <button class="flex-container"><img src="../images/linkedin.png">LinkedIn</button>
+            </a>
+          </section>
+        </section>
+        <img src="../images/family.jpg" alt="Picture of me">
+      </section>
+
+      <!-- ABOUT ME -->
+      <section id="about" class="content-page flex-container column">
+        <h3 >A Little About Me</h3>
+        <div class="line"></div>
+        <section class="flex-container background">
+          <section class="text-section flex-container column">
+            <p class="bubble-background">
+              Hey there, I'm a <em>Caltech</em> class of 24' Computer Science major and Data Science
+              minor! I love developing software, and I've worked as a <em>software engineer</em> and 
+              <em>data analyst</em> for both the <em>CoStar Group</em> and <em>JPL</em>!
+            </p>
+            <p class="bubble-background">
+              In 2022, I won <em>First Overall at Hacktech</em>, Caltech's annual international hackathon. My winning
+              submission was a novel social media app <em>Reach Out</em> designed to bring old friends back in touch.
+              I built the app on React Native and Firebase and learned so much about design, development,
+              and selling a product!
+            </p>
+            <p class="bubble-background">
+              Outside of academics, I love running both cross country and
+              track, reading novels, and gaming. My favorite books include <span class="books">Ender's Game, Roots,</span> and
+              <span class="books">Running With the Buffaloes</span>. Other than that, I relax by hanging out with family and friends!
+            </p>
+          </section>
+          <section class="img-section flex-container column">
+            <figure class="first-img flex-container column">
+              <img src="../images/family.jpg" alt="A picture of me and my family">
+              <figcaption>A picture of me, my brother, and mom at Thanksgiving!</figcaption>
+            </figure>
+            <figure class="second-img flex-container column">
+              <img src="../images/friends.JPG" 
+              alt="My friends and me at a track meet">
+              <figcaption>My friends and me at a track meet!</figcaption>
+            </figure>
+          </section>
+        </section>
+      </section>
+
+      <!-- PROFESSIONAL EXPERIENCE -->
+      <section id="experiences" class="content-page flex-container column">
+        <h3>Professional Experience</h3>
+        <div class="line"></div>
+        <section class="display-section bubble-background flex-container">
+          <img src="../images/loopnet.png" alt="CoStar Group Logo">
+          <section class="flex-container column">
+            <h3>Software Engineer | <em class="company">Loopnet Costar</em></h3>
+            <p class="date">
+              Jun. 2022 to Present
+            </p>
+            <p>
+              I work on the Ecommerce Team for Loopnet to handle the broker transactions for the
+              signature advertisements shown to over <em>10 million</em> visitors per month. 
+              This summer we launched Loopnet to the <em>United Kingdom</em>, and in June of 2022,
+              our ecommerce team increased profits by <em>47%</em> for the month and <em>131%</em> over
+              the past year. I work on both back-end and front-end development, such as creating UK specific
+              <em>React</em> components and layouts as well as creating <em>API endpoints</em> and <em>unit tests</em>
+              for our pricing assembly.
+            </p>
+            <p class="tech"><strong>Languages</strong>: C#, TypeScript, HTML</p>
+            <p class="tech"><strong>Technologies</strong>: React, SQL Server, Git, Azure DevOps</p>
+          </section>
+        </section>
+        <section class="display-section bubble-background flex-container">
+          <img src="../images/costar.png" alt="CoStar Group Logo">
+          <section class="flex-container column">
+            <h3>Data Analyst | <em class="company">Costar Group</em></h3>
+            <p class="date">
+              Dec. 2021 to Jun. 2022
+            </p>
+            <p>
+              I developed a Google Perspective program to parse <em>over 1.7 million</em> client messages
+              for sensitive information. I also co-created an <em>interactive analytics dashboard</em>
+              tracking client visiting frequency, reach, and retargeting metrics. I leveraged <em>Google
+              Standard SQL</em> in Big Query and Data Studios.
+              The dashboard is used internally by product managers and business analysts to produce
+              business strategies.
+            </p>
+            <p class="tech"><strong>Languages</strong>: Python, Google Standard SQL</p>
+            <p class="tech"><strong>Technologies</strong>: Big Query, Data Studios</p>
+          </section>
+        </section>
+        <section class="display-section bubble-background flex-container">
+          <img src="../images/nasa-light.png" alt="NASA Logo">
+          <section class="flex-container column">
+            <h3>Software Engineer and Research Intern | <em class="company">NASA JPL</em></h3>
+            <p class="date">
+              Jun. 2021 to Aug. 2021
+            </p>
+            <p>
+              I implemented an iterative <em>image processing</em> technique for telescope images, using 
+              the <em>Interactive Data Language</em>. The model analyzed <em>4x as many</em> atmospheric components as previous research and revealed key temporal
+              and longitudinal influnces on Jupiter's atmosphere. The findings were presented to
+              the <em>Asia Oceana Geosciences Society</em> and <em>Summer Undergraduate Research
+              Fellowship.</em>
+            </p>
+            <p class="tech"><strong>Languages</strong>: Python, Interactive Data Language</p>
+            <p class="tech"><strong>Technologies</strong>: Linux</p>
+          </section>
+        </section>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="flex-container content-page column">
+        <h3 >Projects</h3>
+        <div class="line"></div>
+        <section class="display-section bubble-background flex-container">
+          <section class="flex-container column">
+            <h3>Reach Out | <em class="company">Social Media App</em></h3>
+            <p class="date"><a href="https://github.com/ryangithubaccount/reach_out">Github Repo</a></p>
+            <p>
+              Reach Out is a social media app inspired by a desire to keep in touch with
+              those friends who gradually fade away. Every day, it prompts users with a 
+              universal question, and users' responses foster conversation and relatability.
+              Entered in Caltech's annual hackathon, Hacktech, we won <em>Best Overall Hack</em>
+              and <em>Best Remote Life Hack</em> for the uniqueness and technical prowess of 
+              the project.
+            </p>
+            <p class="tech"><strong>Languages</strong>: JavaScript, HTML, CSS</p>
+            <p class="tech"><strong>Technologies</strong>: React Native, Firebase, Git</p>
+          </section>
+          <img src="../images/caltech.png" alt="Caltech Logo">
+        </section>
+        <section class="display-section bubble-background flex-container">
+          <section class="flex-container column">
+            <h3>Ryan Chan! | <em class="company">Personal Website</em></h3>
+            <p class="date"><a href="https://github.com/ryangithubaccount/reach_out">Github Repo</a></p>
+            <p>
+              I built this website to practice my web development skills
+              and put my experience in CS 132 into use! I used JavaScript to
+              make a couple of neat scrolling features, so check that out. 
+              I had a blast designing and implementing the features and hope you enjoy it too!
+            </p>
+            <p class="tech"><strong>Languages</strong>: JavaScript, HTML, CSS</p>
+          </section>
+          <img src="../images/costar.png" alt="CoStar Group Logo">
+        </section>
+        <section class="display-section bubble-background flex-container">
+          <section class="flex-container column">
+            <h3>Anagrams | <em class="company">Game Pigeon Web Version</em></em></h3>
+            <p class="date"><a href="https://github.com/ryangithubaccount/anagrams">Github Repo</a></p>
+            <p>
+              Anagrams takes the classic Game Pigeon game and ports it into a web application.
+              Scoring calculations and word possibilities are generated in <em>Python</em> and 
+              interact with the web page through <em>Flask</em>. Players can customize number of
+              letters, choose unique timers, and keep track of their standings with an updating
+              leaderboard! The game also shows players which words they missed and other possibilities
+              after the game ends.
+            </p>
+            <p class="tech"><strong>Languages</strong>: Python, JavaScript, HTML, CSS</p>
+            <p class="tech"><strong>Technologies</strong>: Flask, Git</p>
+          </section>
+          <img src="../images/loopnet.png" alt="CoStar Group Logo">
+        </section>
+        <section class="display-section bubble-background flex-container">
+          <section class="flex-container column">
+            <h3>Fantasy Basketball Calculator | <em class="company">Draft Predictor</em></em></h3>
+            <p class="date"><a href="https://github.com/ryangithubaccount/fantasy_basketball_calculator">Github Repo</a></p>
+            <p>
+              One of my first personal projects, I combined my love of software and fantasy
+              basketball. Leveraging <em>NumPy</em>, I used statistical analysis to predict
+              player output by following historical progressions and unique player progressions.
+              In many ways, the model is very reminiscent of machine learning, which I only
+              realized after I took more courses! Through <em>Flask</em> I ported this to a 
+              web application that over <em>2000 players</em> used for their drafts last year!
+            </p>
+            <p class="tech"><strong>Languages</strong>: Python, HTML, CSS</p>
+            <p class="tech"><strong>Technologies</strong>: Flask</p>
+          </section>
+          <img src="../images/nasa-light.png" alt="NASA Logo">
+        </section>
+      </section>
+    </main>
+    <section id="scroll-down">
+      <div><span></span><span></span><span></span><div>Scroll</div></div>
+    </section>
+    <footer class="flex-container column">
+      <h4>Thanks for Visiting!</h4>
+      <p class="books">Made with HTML5, CSS, and JavaScript</p>
+      <section class="flex-container">
+        <section class="flex-container button-holder">
+          <button class="flex-container"><img src="../images/document.png">Resume</button>
+          <a href="https://github.com/ryangithubaccount" target="_blank">
+            <button class="flex-container"><img src="../images/github.png">GitHub</button>
+          </a>
+          <a href="https://linkedin.com/in/ry-chan" target="_blank">
+            <button class="flex-container"><img src="../images/linkedin.png">LinkedIn</button>
+          </a>
+        </section>
+        <section class="flex-container">
+          <h5>Contact Me Here&nbsp;&rarr;&nbsp;</h5>
+          <button><a href="mailto:rchan@caltech.edu">rchan@caltech.edu</a></button> 
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+/* Content Spacing */
+.content-page {
+  width: 85%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 35px;
+  background-color: #302f34;
+  border-radius: 15px;
+  /*
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ef987dff;
+  */
+}
+
+/* Text Styling */
+.text-section {
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  width: max-content;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin: 0;
+  color: white;
+}
+
+em {
+  font-style: normal;
+  font-weight: normal;
+  color: #ef987d;
+}
+
+p em {
+  color: #07e4e8;
+  font-weight: bold;
+}
+
+/* Image Display */
+.img-section {
+  width: 40%;
+  justify-content: center;
+}
+
+.img-section > figure > img {
+  height: 200px;
+  border-radius: 50%;
+  /*box-shadow: rgba(227, 177, 161, 0.7) 5px 5px 5px;*/
+}
+
+figure, .img-section {
+  align-items: center;
+}
+
+figcaption {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 300; 
+  color: white;
+}

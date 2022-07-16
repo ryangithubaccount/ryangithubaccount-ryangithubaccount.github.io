@@ -1,0 +1,81 @@
+/* Text Styling */
+h1 {
+  font-size: 120px;
+  margin: 0;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: normal;
+  margin: 0;
+  margin-left: 6px;
+}
+
+#title-txt {
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: 7.5%;
+}
+
+#home p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.title-p {
+  font-size: 25px;
+  margin-left: 8px;
+  font-weight: normal;
+  margin-bottom: 1em;
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Button and image */
+button {
+  margin-right: 45px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  height:fit-content;
+  background-color: rgba(255, 255, 255, 0.5);
+  align-items: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+button > img {
+  height: 1em;
+  margin-right: 10px;
+}
+
+#home > img {
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 150px;
+}
+
+#home {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background: url("../images/background.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.button-holder {
+  margin-left: 8px;
+}
