@@ -155,6 +155,7 @@ button a {
   color: white;
   position: fixed;
   bottom: 10px;
+  cursor: pointer;
 }
 
 #scroll-down > div {
