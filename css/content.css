@@ -53,7 +53,7 @@ p em {
 }
 
 .img-section > figure > img {
-  height: 200px;
+  height: 250px;
   border-radius: 50%;
   /*box-shadow: rgba(227, 177, 161, 0.7) 5px 5px 5px;*/
 }
