@@ -16,6 +16,10 @@
   margin-right: 2em;
 }
 
+.display-section > .circle {
+  border-radius: 50%;
+}
+
 .display-section h3 {
   font-size: 25px;
   /*
